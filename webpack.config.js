@@ -28,8 +28,8 @@ module.exports = {
     new Dotenv(), // Load environment variables from .env
   ],
   devServer: {
-    contentBase: './dist', // Serve from the 'dist' directory
-    port: 3000, // Port for local development
+    static: path.join(__dirname,'dist'), // Serve from the 'dist' directory
+    port: 8080, // Port for local development
     open: true, // Automatically open in the default browser
   },
 };
