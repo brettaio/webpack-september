@@ -5,7 +5,7 @@ cd /d C:\brettaio\webpack
 
 rem Git commands
 git add .
-git commit -m "local to git %date% %time%"
+git commit -m "This Commit Is Proudly Brought To You By bretta.io || %date% %time%"
 git push -u origin main
 
 rem Exit the script
